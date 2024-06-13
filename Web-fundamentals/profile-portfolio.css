@@ -26,14 +26,15 @@ nav a {
     max-width: 300px;
     display: block;
     left: 5em;
-    padding-top: 3.5em;
-    border-radius: 1em;
+    margin-top: 3.6em;
+    border-radius: 25px;
+    
 }
 
 .hero-tex {
     color: white;
     display: inline-block;
-    
+
 }
 
 .hero-tex h6 {
