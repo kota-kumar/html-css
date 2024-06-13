@@ -1,19 +1,78 @@
-header{
-background-color: black;
-padding: 1rem;
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    padding: 1rem;
 
 }
-nav a{
-  margin-left: 0.9rem;
-  color:white;
+
+nav a {
+    margin-left: 0.9rem;
+    color: white;
     text-transform: uppercase;
-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
 }
-.img1 img{
+
+.img1 {
+    float: left;
+    width: 30%;
+    margin-left: 4rem;
+}
+
+.img1 img {
     max-width: 300px;
     display: block;
     left: 5em;
-    padding-top:2em;
-border-radius: 5rem;
-position:relative;
+    padding-top: 3.5em;
+    border-radius: 5rem;
+}
+
+.hero-tex {
+    color: white;
+    display: inline-block;
+
+}
+
+.hero-tex h6 {
+    font-size: 1.6rem;
+    color: #5DA9E9;
+    margin-bottom: 0.5rem;
+}
+
+.hero-tex h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+    font-weight: 100;
+    margin-top: 0em;
+}
+
+.hero-tex span {
+    color: #5DA9E9;
+    font-size: 4rem;
+}
+
+.root {
+    --primary: #5DA9E9;
+}
+
+.btn {
+    padding: 0.9em;
+    text-transform: uppercase;
+    font-size: 15px;
+    cursor: pointer;
+    border: 2px sold transparent;
+    transition: all .2s ease;
+    outline: none;
+}
+
+.btn-sec {
+    color: var(--primary);
+    background-color: transparent;
+    border-color: var(--primary);
+}
+
+.btn:hover {
+    background-color: #5DA9E9;
 }
