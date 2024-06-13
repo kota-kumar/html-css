@@ -1,0 +1,19 @@
+header{
+background-color: black;
+padding: 1rem;
+
+}
+nav a{
+  margin-left: 0.9rem;
+  color:white;
+    text-transform: uppercase;
+transition: all .2s ease-in-out;
+}
+.img1 img{
+    max-width: 300px;
+    display: block;
+    left: 5em;
+    padding-top:2em;
+border-radius: 5rem;
+position:relative;
+}
