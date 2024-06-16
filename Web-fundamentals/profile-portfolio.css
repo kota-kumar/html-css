@@ -3,6 +3,13 @@
     box-sizing: border-box;
 }
 
+main {
+    background-color: black;
+    padding: 6rem;
+    color: #ffffff;
+
+}
+
 header {
     background-color: black;
     padding: 1rem;
@@ -28,7 +35,7 @@ nav a {
     left: 5em;
     margin-top: 3.6em;
     border-radius: 25px;
-    
+
 }
 
 .hero-tex {
@@ -76,5 +83,127 @@ nav a {
 }
 
 .btn:hover {
+    background-color: #5DA9E9;
+}
+
+.img2 img {
+    width: 200px;
+    float: left;
+    margin-left: 12em;
+    margin-top: 1.8em;
+}
+
+.about-sec {
+    display: inline-block;
+    padding-left: 2em;
+    width: 50%;
+    margin-top: 3em;
+}
+
+.social {
+
+    display: flex;
+    padding-left: 1em;
+
+}
+
+section .row1 {
+    padding-top: 2em;
+    padding-bottom: 4em;
+}
+
+.project {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: -2em;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+    height: 200px;
+
+
+}
+
+.grid img {
+    width: 40px;
+    position: absolute;
+    left: 8em;
+    top: -1.5rem;
+    background: white;
+}
+
+.grid p {
+    text-align: center;
+    position: absolute;
+    top: 5em;
+}
+
+.grid h1 {
+    color: #5DA9E9;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+
+}
+
+.calc {
+    width: 300px;
+
+    background-color: #ffffff;
+    color: black;
+    padding: 3rem 2rem;
+    transition: all .2s ease;
+    position: relative;
+}
+
+.cart {
+    width: 300px;
+    background-color: #ffffff;
+    color: black;
+    padding: 3rem 2rem;
+    transition: all .2s ease;
+    position: relative;
+}
+
+.todo {
+    width: 300px;
+    background-color: #ffffff;
+    color: black;
+    padding: 3rem 2rem;
+    transition: all .2s ease;
+    position: relative;
+}
+
+.contact-form {
+    max-width: 78rem;
+    margin: 0 auto;
+    padding: 6rem;
+    color: #5DA9E9;
+    line-height: ;
+}
+
+.form-heading {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.4em;
+    font-weight: 300;
+}
+
+.form-input {
+    width: 100%;
+    padding: 0.5em;
+    border: none;
+    margin: 0 0 1em;
+    border: 1px solid #ccc;
+}
+
+.contact-form label {
+    font-size: 20px;
+}
+
+.submit-button {
     background-color: #5DA9E9;
 }
